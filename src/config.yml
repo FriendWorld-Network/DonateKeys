@@ -1,0 +1,18 @@
+#DonateKeys Config File#
+
+#=====MySQL connection=====#
+mysql:
+  hostname: 127.0.0.1
+  username: root
+  password: "test"
+  database: "keys"
+  table: "keys"
+  port: 3306
+  options: "?useSSL=false"
+
+#=====Plugin Messages=====#
+plugin:
+  errormsg: "§c§l DonateKeys §8| §fНевозможно активировать ключ!"
+  successmsg: "§c§l DonateKeys §8| §fКлюч успешно активирован!"
+  noargmsg: "§c§l DonateKeys §8| §c§lВы не ввели ключ!"
+  sqlhackmsg: "§c§l DonateKeys §8| §c§lОбнаружена попытка SQL-инъекции!"

@@ -1,0 +1,7 @@
+name: DonateKeys
+main: fwnet.donatekeys.main.main
+version: 1.5
+commands:
+   activate:
+      description: Activate donate key.
+      usage: /activate <key>
