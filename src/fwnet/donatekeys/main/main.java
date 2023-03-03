@@ -13,14 +13,14 @@ import org.bukkit.command.CommandSender;
 
 public class main extends JavaPlugin{
 	
-	private static main plugin;
+	static main instance;
 	
     public main() {
-        main.plugin = this;
+        instance = this;
      }
      
      public static main getPlugin() {
-         return main.plugin;
+         return instance;
      }
 	
      String hostname = getConfig().getString("mysql.hostname");

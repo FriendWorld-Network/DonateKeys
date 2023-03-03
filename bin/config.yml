@@ -15,4 +15,4 @@ plugin:
   errormsg: "§c§l DonateKeys §8| §fНевозможно активировать ключ!"
   successmsg: "§c§l DonateKeys §8| §fКлюч успешно активирован!"
   noargmsg: "§c§l DonateKeys §8| §c§lВы не ввели ключ!"
-  sqlhackmsg: "§c§l DonateKeys §8| §c§lОбнаружена попытка SQL-иньекции!"
+  sqlhackmsg: "§c§l DonateKeys §8| §c§lОбнаружена попытка SQL-инъекции!"
