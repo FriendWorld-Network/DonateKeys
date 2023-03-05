@@ -14,10 +14,6 @@ import org.bukkit.command.CommandSender;
 public class main extends JavaPlugin{
 	
 	static main instance;
-	
-    public main() {
-        instance = this;
-     }
      
      public static main getPlugin() {
          return instance;
@@ -46,6 +42,7 @@ public class main extends JavaPlugin{
 	
 	@Override
 	public void onEnable() {
+		instance = this;
 		log.info("Database url: " + url);
 		log.info("DonateKeys started!");
 		this.saveDefaultConfig();
